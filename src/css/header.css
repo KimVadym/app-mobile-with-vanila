@@ -1,21 +1,36 @@
-.header {
-  padding: 20px 0;
+.page-header {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  background: linear-gradient(
+    90.03deg,
+    rgba(0, 197, 235, 0.3) -1.97%,
+    rgba(181, 68, 254, 0.3) 89.43%
+  );
+  backdrop-filter: blur(17.5px);
 }
 
-.nav-list {
+.page-nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.22;
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
   gap: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.link {
+  color: var(--text-color);
 }
