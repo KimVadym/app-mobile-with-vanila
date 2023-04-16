@@ -1,5 +1,123 @@
 .video {
-  font-size: 20px;
-  color: red;
-  background-color: #bfd929;
+  background: var(--hero);
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .vid {
+    margin-bottom: 24px;
+  }
+  .video-descr {
+    margin-bottom: 24px;
+    font-size: 14px;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vector-box {
+    margin-bottom: 40px;
+  }
+}
+.vid {
+  color: var(--main);
+}
+.video-descr {
+  font-weight: 500;
+  line-height: 1.18;
+  color: var(--main);
+}
+.vector-box {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .video {
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .vid {
+    margin-bottom: 20px;
+  }
+  .video-descr {
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .vector-box {
+    margin-bottom: 40px;
+  }
+  .video-pic {
+    width: 401px;
+    height: 258px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .video {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--hero);
+  }
+  .vid {
+    margin-bottom: 20px;
+  }
+  .video-descr {
+    margin-bottom: 40px;
+    font-size: 16px;
+    width: 478px;
+  }
+  .video-container {
+    display: flex;
+    align-items: center;
+  }
+  .video-pic {
+    width: 501px;
+    height: 282px;
+  }
+  .video-box {
+    margin-right: auto;
+  }
+}
+
+.vector-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--grad);
+}
+
+.vector-icon:hover,
+.vector-icon:focus {
+  background: linear-gradient(#06071b, #06071b) padding-box,
+    var(--grad) border-box;
+  border: 1px solid transparent;
+  fill: var(--hero);
+  stroke: #b544fe;
+}
+
+.vector-list:first-child {
+  margin-right: 20px;
 }
