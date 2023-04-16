@@ -11,13 +11,13 @@
 .title-hero {
   font-size: 40px;
   line-height: 1.2;
-  color: var(--text-color);
+  color: var(--main);
 }
 
 .text-hero {
   font-size: 20px;
   line-height: 1.2;
-  color: var(--text-color);
+  color: var(--main);
   margin-top: 18px;
 }
 
@@ -25,7 +25,7 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 1.18;
-  color: var(--text-color);
+  color: var(--main);
 }
 
 .list {
@@ -53,7 +53,7 @@
   border-radius: 5px;
   width: 200px;
   height: 42px;
-  color: var(--text-color);
+  color: var(--main);
 }
 
 .list-hero-item:not(:last-child) {
