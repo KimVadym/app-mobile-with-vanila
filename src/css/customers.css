@@ -46,11 +46,11 @@
   width: 13px;
   height: 13px;
 
-  background: rgba(17, 17, 17, 1);
+  background: rgb(38, 149, 218);
 }
 .swiper-pagination-bullet-active {
   width: 28px;
   height: 13px;
   border-radius: 50px;
-  background: #fd9222;
+  background: #750896;
 }

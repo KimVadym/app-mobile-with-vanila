@@ -60,7 +60,7 @@ footer {
 }
 .form-content:hover,
 .form-content:focus {
-  border: 5px solid #e1e109;
+  border: 5px solid #45819d;
   color: #b544fe;
   outline: none;
 }
@@ -84,7 +84,7 @@ footer {
 }
 .form-content-text:hover + ::placeholder,
 .form-content-text:focus {
-  border: 5px solid #e1e109;
+  border: 5px solid #35cfcd;
   color: #b544fe;
   outline: none;
 }
