@@ -1,5 +1,137 @@
-.team {
-  font-style: 20px;
-  color: yellow;
-  background-color: #136ac7;
+@media screen and (min-width: 320px) {
+  .team {
+    padding-top: 50px;
+  }
+  .our-team {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    margin-bottom: 14px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--text-color);
+  }
+  .team-descr {
+    margin-bottom: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    color: var(--text-color);
+  }
+  .team-box {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .card {
+    background: linear-gradient(
+        312.87deg,
+        rgba(0, 197, 235, 0.5) -0.2%,
+        rgba(181, 68, 254, 0.5) 112.66%
+      ),
+      #06071b;
+    backdrop-filter: blur(17.5px);
+    border-radius: 15px;
+    padding: 16px 16px 12px 16px;
+  }
+
+  .pic {
+    margin-bottom: 24px;
+  }
+
+  .name {
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    color: var(--main);
+    margin-bottom: 12px;
+  }
+  .name-item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--main);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding-top: 80px;
+  }
+  .our-team {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .team-descr {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .card {
+    padding: 20px 20px 20px 16px;
+    flex-basis: calc((100% - 32px) / 2);
+    width: 336px;
+  }
+  /* .pic {
+    width: 296px;
+  } */
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .team-box {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 40px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .our-team {
+    margin-bottom: 80px;
+  }
+  .team-descr {
+    margin-bottom: 80px;
+  }
+  .card {
+    padding: 14px 12px 12px 12px;
+    width: 288px;
+  }
+  .team-box {
+    display: flex;
+    gap: 32px;
+  }
+}
+/*  */
+.overlay {
+  background-color: rgb(79, 162, 214, 0.6);
+  font-size: 14px;
+  padding: 20px 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+  transform: translate(0, 100%);
+  transition: transform 500ms linear;
+  width: 100%;
+  height: 100%;
+}
+.card:hover .overlay {
+  border-radius: 15px;
+  transform: translate(0, 0);
+}
+.overlay-wrapper {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
 }
