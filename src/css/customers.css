@@ -57,15 +57,4 @@
 .swiper-wrapper {
   margin-bottom: 100px;
 }
-.slider-pagination .swiper-pagination-bullet {
-  width: 13px;
-  height: 13px;
 
-  background: rgba(17, 17, 17, 1);
-}
-.slider-pagination .swiper-pagination-bullet-active {
-  width: 28px;
-  height: 13px;
-  border-radius: 50px;
-  background: #fd9222;
-}
