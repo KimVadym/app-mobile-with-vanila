@@ -13,121 +13,328 @@
     />
     <title>Vanilla App Template</title>
     
-    <script type="module" crossorigin src="/app-mobile-with-vanila/assets/index-f7f58132.js"></script>
-    <link rel="stylesheet" href="/app-mobile-with-vanila/assets/index-9083362e.css">
+    <script type="module" crossorigin src="/app-mobile-with-vanila/assets/index-3d29102b.js"></script>
+    <link rel="stylesheet" href="/app-mobile-with-vanila/assets/index-0ceab29c.css">
   </head>
   <body>
-    <header class="page-header">
-  <div class="container">
-    <nav class="page-nav">
-      <a class="logo link" href="./index.html">Mobileapp</a>
-
-      <ul class="menu list">
-        <li class="menu-item">
-          <a class="link" href="./index.html">HOME</a>
+    <header class="header-overlay">
+  <div class="container mobile-men">
+    <nav class="navigation">
+      <a class="logo link" href="index.html">Mobileapp</a>
+      <ul class="header-menu">
+        <li class="header-menu-title">
+          <a class="link navigation-item" href="">HOME</a>
         </li>
-        <li class="menu-item">
-          <a class="link" href="">FEATURES</a>
+        <li class="header-menu-title">
+          <a href="#key" class="link navigation-item">FEATURES</a>
         </li>
-        <li class="menu-item">
-          <a class="link" href="">TEAM</a>
+        <li class="header-menu-title">
+          <a href="#team" class="link navigation-item">TEAM</a>
         </li>
-        <li class="menu-item">
-          <a class="link" href="">TESTIMONIALS</a>
+        <li class="header-menu-title">
+          <a href="#costumer" class="link navigation-item">TESTIMONIALS</a>
         </li>
-        <li class="menu-item">
-          <a class="link" href="">CONTACT</a>
+        <li class="header-menu-title">
+          <a href="#contact" class="link navigation-item">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+    <button type="button" class="mobile-btn js-open-menu">
+      <svg class="mobile-btn-icon" width="24" height="14">
+        <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-burger"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+<div class="mobile-menu js-menu-container">
+  <div class="menu-wrapper">
+    <button type="button" class="mobile-close-btn js-close-menu">
+      <svg class="mobile-btn-close" width="19" height="19">
+        <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-close"></use>
+      </svg>
+    </button>
+    <nav class="mmb">
+      <a class="logo mobile-menu-logo" href="#">Mobileapp</a>
+      <ul class="mobile-menu-wrapp">
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link" href="#">HOME</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link" href="#key">FEATURES</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link" href="#team">TEAM</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link" href="#costumer">TESTIMONIALS</a>
+        </li>
+        <li class="mobile-menu-list">
+          <a class="mobile-menu-link" href="#contact">CONTACT</a>
         </li>
       </ul>
     </nav>
   </div>
-</header>
+</div>
 
     <main>
-      <section class="section-hero container">
-  <div class="decor-hero-background"></div>
-  <div class="content-hero">
-    <h1 class="title-hero">Introducing Mobileapp</h1>
-    <p class="text-hero">Maecenas vitae tellus sapien. Prasent</p>
-    <ul class="list list-hero">
-      <div class="list-hero-item">
-        <svg class="list-hero-icon" weight="7.2" height="12.6">
-          <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-menshe"></use>
-        </svg>
-        <li class="list-item">semper scelerisque tristique a enim</li>
-      </div>
-      <div class="list-hero-item">
-        <svg class="list-hero-icon" weight="7.2" height="12.6">
-          <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-menshe"></use>
-        </svg>
-        <li class="list-item">Integer ut mattis nulla, eget vehicula elit</li>
-      </div>
-      <div class="list-hero-item">
-        <svg class="list-hero-icon" weight="7.2" height="12.6">
-          <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-menshe"></use>
-        </svg>
-        <li class="list-item">Prasent rutrum ac nunc et</li>
-      </div>
-    </ul>
-    <button type="button" class="btn">Download</button>
+      <section class="hero">
+  <div class="container hero-box">
+    <div class="hero-main">
+      <h1 class="hero-item">Introducing Mobileapp</h1>
+      <p class="hero-subtitel">Maecenas vitae tellus sapien. Prasent</p>
+      <ul class="hero-text-box">
+        <li>
+          <p class="hero-text">semper scelerisque tristique a enim</p>
+        </li>
+        <li>
+          <p class="hero-text">Integer ut mattis nulla, eget vehicula elit</p>
+        </li>
+        <li>
+          <p class="hero-text">Prasent rutrum ac nunc et</p>
+        </li>
+      </ul>
+      <button class="btn" type="button" data-modal-open>Download</button>
+    </div>
+
+    <img class="pic-icon" src="/app-mobile-with-vanila/assets/decor-9ef8a559.png" alt="decor" />
+
+    <img
+      class="pic-phone"
+      src="/app-mobile-with-vanila/assets/mobile-181b0401.png"
+      width="472"
+      height="553"
+      alt="phone"
+    />
+    <img class="big-spraying" src="/app-mobile-with-vanila/assets/big-76ddc4d5.png" alt="" />
+    <!-- <img class="small-spraying" src="./images/small.png" alt="" /> -->
   </div>
-  <div class="decor-hero-detals"></div>
-  <div class="decor-hero-fone"></div>
+  <div class="dackdrop is-hidden" data-modal>
+    <div class="modal-window">
+      <button type="button" class="modal-btn-close" data-modal-close>
+        <svg width="28" height="28">
+          <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p class="modal-title">Download</p>
+      <div class="download-list">
+        <ul class="mod-wrapp">
+          <li class="mod-wrapp-list box-mod">
+            <a href="">
+              <div class="download-list-page">
+                <svg width="80" height="106">
+                  <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-download"></use>
+                </svg>
+                <p class="download-list-name">Download free plan</p>
+                <ul>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="mod-wrapp-list box-mod">
+            <a href="">
+              <div class="download-list-page">
+                <svg width="80" height="106">
+                  <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-download"></use>
+                </svg>
+                <p class="download-list-name">Download for 20$</p>
+                <ul>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="modal-link">
+        Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque
+        neque. In sit amet lectus non lacus
+      </p>
+      <div class="modal-wrapper-app">
+        <ul class="modal-app-icon">
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-app"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">App name</p>
+                <p class="app-icon-name">Mobileapp.layout</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-license"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">License</p>
+                <p class="app-icon-name">Free</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-author"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Author</p>
+                <p class="app-icon-name">Mobile Marrket App.com</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-data"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Data</p>
+                <p class="app-icon-name">21.02.2022</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-oc"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">OC</p>
+                <p class="app-icon-name">Windows</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-language"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Language</p>
+                <p class="app-icon-name">English</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-size"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Size</p>
+                <p class="app-icon-name">4.16 MB</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="/app-mobile-with-vanila/assets/vector-3ad65bf4.svg#icon-download"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Downloads</p>
+                <p class="app-icon-name">964</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="modal-vertical-line"></div>
+      </div>
+      <button class="modal-btn btn" type="button">Download</button>
+    </div>
+  </div>
 </section>
 
-      <section>
-  <div class="box"></div>
-  <div class="container features">
-    <div class="titles">
-      <h2 class="features-title title">key features</h2>
-      <p class="features-text">
-        Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque
-        neque. In sit amet lectus non lacus sollicitudin cursus a vitae felis.
-        Praesent luctus mi quis nisi interdum eleifend.
-      </p>
-    </div>
-    <div class="features-columns">
-      <ul class="features-list list">
-        <li class="features-list-item">
-          <h3 class="features-item-title">Amet varius</h3>
-          <p class="features-item-text">
+      <section class="about">
+  <div class="container">
+    <h2 class="title key" id="key">KEY FEATURES</h2>
+    <p class="about-subtitel">
+      Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque
+      neque. In sit amet lectus non lacus sollicitudin cursus a vitae felis.
+      Praesent luctus mi quis nisi interdum eleifend.
+    </p>
+    <div class="about-box">
+      <img
+        class="about-pic"
+        src="/app-mobile-with-vanila/assets/frame-61622596.png"
+        width="396"
+        height="601"
+        alt="man siting at the cheare"
+      />
+      <div class="line"></div>
+      <ul class="link">
+        <li class="key-text">
+          <div class="tex"></div>
+          <h3 class="text">Amet varius</h3>
+          <p class="text-desc">
             Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
             Vivamus diam a iaculis malesuada
           </p>
         </li>
-        <li class="features-list-item">
-          <h3 class="features-item-title">Amet varius</h3>
-          <p class="features-item-text">
+        <li class="key-text">
+          <div class="tex"></div>
+          <h3 class="text">Amet varius</h3>
+          <p class="text-desc">
             Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
             Vivamus diam a iaculis malesuada
           </p>
         </li>
-        <li class="features-list-item">
-          <h3 class="features-item-title">Amet varius</h3>
-          <p class="features-item-text">
+        <li class="key-text">
+          <div class="tex"></div>
+          <h3 class="text">Amet varius</h3>
+          <p class="text-desc">
             Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
             Vivamus diam a iaculis malesuada
           </p>
         </li>
-      </ul>
-      <ul class="features-list list">
-        <li class="features-list-item">
-          <h3 class="features-item-title">Amet varius</h3>
-          <p class="features-item-text">
+
+        <li class="key-text">
+          <div class="tex"></div>
+          <h3 class="text">Amet varius</h3>
+          <p class="text-desc">
             Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
             Vivamus diam a iaculis malesuada
           </p>
         </li>
-        <li class="features-list-item">
-          <h3 class="features-item-title">Amet varius</h3>
-          <p class="features-item-text">
+        <li class="key-text">
+          <div class="tex"></div>
+          <h3 class="text">Amet varius</h3>
+          <p class="text-desc">
             Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
             Vivamus diam a iaculis malesuada
           </p>
         </li>
-        <li class="features-list-item">
-          <h3 class="features-item-title">Amet varius</h3>
-          <p class="features-item-text">
+        <li class="key-text">
+          <div class="tex"></div>
+          <h3 class="text">Amet varius</h3>
+          <p class="text-desc">
             Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
             Vivamus diam a iaculis malesuada
           </p>
@@ -136,6 +343,7 @@
     </div>
   </div>
 </section>
+
       <section class="video">
   <div class="container video-container">
     <div class="video-box">
@@ -198,7 +406,7 @@
         <div class="overlay-wrapper">
           <img
             class="pic"
-            src="../img/team/photo-2.jpg"
+            src="/app-mobile-with-vanila/assets/photo-2-7e3450ce.jpg"
             width="296"
             height="299"
             alt=""
@@ -359,7 +567,7 @@
           />
           <textarea
             class="form-content-text"
-            name="mesage"
+            name=""
             placeholder="Message"
           ></textarea>
           <button type="submit" class="footer-btn btn">SUBMIT</button>
