@@ -1,30 +1,194 @@
-<section class="section-hero container">
-  <div class="decor-hero-background"></div>
-  <div class="content-hero">
-    <h1 class="title-hero">Introducing Mobileapp</h1>
-    <p class="text-hero">Maecenas vitae tellus sapien. Prasent</p>
-    <ul class="list list-hero">
-      <div class="list-hero-item">
-        <svg class="list-hero-icon" weight="7.2" height="12.6">
-          <use href="./img/vector.svg#icon-menshe"></use>
-        </svg>
-        <li class="list-item">semper scelerisque tristique a enim</li>
-      </div>
-      <div class="list-hero-item">
-        <svg class="list-hero-icon" weight="7.2" height="12.6">
-          <use href="./img/vector.svg#icon-menshe"></use>
-        </svg>
-        <li class="list-item">Integer ut mattis nulla, eget vehicula elit</li>
-      </div>
-      <div class="list-hero-item">
-        <svg class="list-hero-icon" weight="7.2" height="12.6">
-          <use href="./img/vector.svg#icon-menshe"></use>
-        </svg>
-        <li class="list-item">Prasent rutrum ac nunc et</li>
-      </div>
-    </ul>
-    <button type="button" class="btn">Download</button>
+<section class="hero">
+  <div class="container hero-box">
+    <div class="hero-main">
+      <h1 class="hero-item">Introducing Mobileapp</h1>
+      <p class="hero-subtitel">Maecenas vitae tellus sapien. Prasent</p>
+      <ul class="hero-text-box">
+        <li>
+          <p class="hero-text">semper scelerisque tristique a enim</p>
+        </li>
+        <li>
+          <p class="hero-text">Integer ut mattis nulla, eget vehicula elit</p>
+        </li>
+        <li>
+          <p class="hero-text">Prasent rutrum ac nunc et</p>
+        </li>
+      </ul>
+      <button class="btn" type="button" data-modal-open>Download</button>
+    </div>
+
+    <img class="pic-icon" src="./img/hero/decor.png" alt="decor" />
+
+    <img
+      class="pic-phone"
+      src="./img/hero/mobile.png"
+      width="472"
+      height="553"
+      alt="phone"
+    />
+    <img class="big-spraying" src="./img/hero/big.png" alt="" />
+    <!-- <img class="small-spraying" src="./images/small.png" alt="" /> -->
   </div>
-  <div class="decor-hero-detals"></div>
-  <div class="decor-hero-fone"></div>
+  <div class="dackdrop is-hidden" data-modal>
+    <div class="modal-window">
+      <button type="button" class="modal-btn-close" data-modal-close>
+        <svg width="28" height="28">
+          <use href="./img/vector.svg#icon-close"></use>
+        </svg>
+      </button>
+      <p class="modal-title">Download</p>
+      <div class="download-list">
+        <ul class="mod-wrapp">
+          <li class="mod-wrapp-list box-mod">
+            <a href="">
+              <div class="download-list-page">
+                <svg width="80" height="106">
+                  <use href="./img/vector.svg#icon-download"></use>
+                </svg>
+                <p class="download-list-name">Download free plan</p>
+                <ul>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </li>
+
+          <li class="mod-wrapp-list box-mod">
+            <a href="">
+              <div class="download-list-page">
+                <svg width="80" height="106">
+                  <use href="./img/vector.svg#icon-download"></use>
+                </svg>
+                <p class="download-list-name">Download for 20$</p>
+                <ul>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                  <li class="download-list-arrow">
+                    <p class="download-list-item">
+                      Donec posuere augue venenatis, aliquet
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <p class="modal-link">
+        Nunc vulputate nibh sed congue facilisis. Curabitur posuere scelerisque
+        neque. In sit amet lectus non lacus
+      </p>
+      <div class="modal-wrapper-app">
+        <ul class="modal-app-icon">
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-app"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">App name</p>
+                <p class="app-icon-name">Mobileapp.layout</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-license"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">License</p>
+                <p class="app-icon-name">Free</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-author"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Author</p>
+                <p class="app-icon-name">Mobile Marrket App.com</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-data"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Data</p>
+                <p class="app-icon-name">21.02.2022</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-oc"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">OC</p>
+                <p class="app-icon-name">Windows</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-language"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Language</p>
+                <p class="app-icon-name">English</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-size"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Size</p>
+                <p class="app-icon-name">4.16 MB</p>
+              </div>
+            </a>
+          </li>
+          <li class="modal-app-icon-wrapp">
+            <a class="modal-app-icon-box" href="">
+              <svg width="28" height="28">
+                <use href="./img/vector.svg#icon-download"></use>
+              </svg>
+              <div>
+                <p class="app-icon-title">Downloads</p>
+                <p class="app-icon-name">964</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div class="modal-vertical-line"></div>
+      </div>
+      <button class="modal-btn btn" type="button">Download</button>
+    </div>
+  </div>
 </section>
