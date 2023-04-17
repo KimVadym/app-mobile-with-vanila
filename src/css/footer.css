@@ -60,7 +60,7 @@ footer {
 }
 .form-content:hover,
 .form-content:focus {
-  border: 5px solid #45819d;
+  border: 5px solid #e1e109;
   color: #b544fe;
   outline: none;
 }
@@ -84,7 +84,7 @@ footer {
 }
 .form-content-text:hover + ::placeholder,
 .form-content-text:focus {
-  border: 5px solid #35cfcd;
+  border: 5px solid #e1e109;
   color: #b544fe;
   outline: none;
 }
@@ -167,7 +167,7 @@ footer {
     column-gap: 32px;
   }
   .form-content {
-    width: 336px;
+    width: 325px;
   }
   .form-content-text {
     width: 704px;
@@ -183,7 +183,7 @@ footer {
     margin-bottom: 80px;
   }
 }
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1199px) {
   .footer-left-box {
     display: flex;
     flex-direction: column;
@@ -191,7 +191,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   footer {
     padding-top: 80px;
   }
@@ -203,7 +203,7 @@ footer {
     margin-bottom: 80px;
   }
   .form-content {
-    width: 288px;
+    width: 278px;
   }
   .form-content-text {
     width: 608px;
